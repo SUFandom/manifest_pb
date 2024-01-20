@@ -45,7 +45,7 @@
     <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
 
     <!-- PBRP lives in PitchBlackRecoveryProject repo -->
-    <project path="bootable/recovery" name="PBRP_Core_Custom" remote="PitchBlackRecoveryProject" revision="android-12.1"/>
+    <project path="bootable/recovery" name="PBRP_Core_Custom" remote="SUFandom" revision="android-12.1"/>
 
     <!-- Use PitchBlackRecoveryProject repos for full recovery compatibility -->
     <project path="build/make" name="android_build" remote="PitchBlackRecoveryProject" revision="android-12.1" groups="pdk">
@@ -57,7 +57,7 @@
         <linkfile src="target" dest="build/target"/>
         <linkfile src="tools" dest="build/tools"/>
     </project>
-    <project path="build/soong" name="android_build_soong" remote="PitchBlackRecoveryProject" revision="android-12.1">
+    <project path="build/soong" name="android_build_soong" remote="SUFandom" revision="android-12.1">
         <linkfile src="root.bp" dest="Android.bp"/>
         <linkfile src="bootstrap.bash" dest="bootstrap.bash"/>
     </project>
