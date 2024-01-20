@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<!-- Cannot modify the remote name, ensuring linking is good -->
 
-    <remote name="PitchBlackRecoveryProject"
+    <remote name="SUFandom"
             fetch="https://github.com/SUFandom"
             revision="android-12.1"/>
 
