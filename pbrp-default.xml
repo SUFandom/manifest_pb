@@ -2,6 +2,10 @@
 <manifest>
 
 
+    <remote name="PitchBlackRecoveryProject"
+            fetch="https://github.com/PitchBlackRecoveryProject"
+            revision="android-12.1" />
+
     <remote name="SUFandom"
             fetch="https://github.com/SUFandom"
             revision="android-12.1"/>
